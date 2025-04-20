@@ -1,0 +1,2 @@
+# GreenThumb-Assistant-Smart-Plant-Identification-and-Care-Guidance-for-Every-Home
+GreenThumb Assistant is a web application that uses the Plant.id API for plant identification via image uploads. It provides accurate species identification and detailed care tips, including watering, sunlight, temperature, humidity, and fertilization needs. Built with Flask, it offers a seamless, user-friendly experience
