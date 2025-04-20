@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Plant Care Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f4c7f0, #ffb8b8);
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ff8a8a;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #ffffff;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        input[type="file"] {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 2px solid #ff8a8a;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .result {
+            margin-top: 30px;
+            text-align: center;
+            padding: 20px;
+            background-color: #f7f8f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+
+        .result h3 {
+            font-size: 2rem;
+            color: #2d3e50;
+        }
+
+        .result img {
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .care-tips {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .tip {
+            background-color: #e9f7e9;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #d6f4d6;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .tip h4 {
+            font-size: 1.2rem;
+            color: #2c6d2d;
+        }
+
+        .tip p {
+            font-size: 1rem;
+            color: #555;
+            text-align: justify;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #555;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Smart Plant Care Assistant</h2>
+        <p style="color: #ffffff;">Your trusted companion for plant identification and care tips!</p>
+    </header>
+
+    <div class="container">
+        <div class="form-container">
+            <h3>Upload a Plant Photo</h3>
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" name="image" required>
+                <button type="submit">Analyze</button>
+            </form>
+        </div>
+
+        {% if result %}
+            <div class="result">
+                <h3>Prediction: {{ result.name }} ({{ result.confidence }})</h3>
+                <img src="{{ result.image }}" width="300" alt="Plant Image"><br>
+
+                <div class="care-tips">
+                    <div class="tip">
+                        <h4>Water</h4>
+                        <p>{{ result.tips.water }}</p>
+                    </div>
+                    <div class="tip">
+                        <h4>Sunlight</h4>
+                        <p>{{ result.tips.sunlight }}</p>
+                    </div>
+                    <div class="tip">
+                        <h4>Temperature</h4>
+                        <p>{{ result.tips.temperature }}</p>
+                    </div>
+                    <div class="tip">
+                        <h4>Humidity</h4>
+                        <p>{{ result.tips.humidity }}</p>
+                    </div>
+                    <div class="tip">
+                        <h4>Soil</h4>
+                        <p>{{ result.tips.soil }}</p>
+                    </div>
+                    <div class="tip">
+                        <h4>Fertilization</h4>
+                        <p>{{ result.tips.fertilization }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+
+    <footer>
+        <p>Created with ❤️ by <a href="#">Smart Plant Care Team</a></p>
+    </footer>
+
+</body>
+</html>

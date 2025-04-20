@@ -1,0 +1,109 @@
+{
+    "Musa": {
+      "water": "Water once per week, keep soil moist. Increase water during hot seasons but avoid waterlogging.",
+      "sunlight": "Full sunlight, at least 6 hours of direct sunlight each day.",
+      "temperature": "Prefer temperatures between 75°F and 95°F (24°C to 35°C). Avoid frost.",
+      "humidity": "High humidity is preferred. Misting or using a humidifier is recommended.",
+      "soil": "Well-draining, rich in organic matter. A peat-based mix is ideal.",
+      "fertilization": "Fertilize monthly during the growing season with a balanced fertilizer."
+    },
+    "Chlorophytum comosum": {
+      "water": "Water once a week, allowing the soil to dry out between waterings. In winter, water less frequently.",
+      "sunlight": "Bright, indirect light. Can tolerate lower light but will grow slower.",
+      "temperature": "Prefers temperatures between 60°F and 75°F (16°C to 24°C). Avoid temperatures below 50°F (10°C).",
+      "humidity": "Tolerant of average humidity but thrives in moderate humidity levels.",
+      "soil": "Well-draining potting mix, preferably one designed for houseplants.",
+      "fertilization": "Fertilize monthly during the growing season with a diluted liquid fertilizer."
+    },
+    "Ficus elastica": {
+      "water": "Water when the top 1-2 inches of soil is dry. Avoid overwatering.",
+      "sunlight": "Bright, indirect light. Can tolerate some direct sunlight.",
+      "temperature": "Prefers temperatures between 60°F and 75°F (15°C to 24°C). Avoid drafts and temperature fluctuations.",
+      "humidity": "Average to high humidity. If the air is dry, consider misting or using a humidity tray.",
+      "soil": "Well-draining, light potting soil with good organic content.",
+      "fertilization": "Fertilize once a month during the growing season with a balanced liquid fertilizer."
+    },
+    "Spathiphyllum": {
+      "water": "Water when the top of the soil feels dry. Keep the soil moist, but not soggy.",
+      "sunlight": "Low to medium indirect light. Avoid direct sunlight.",
+      "temperature": "Thrives in temperatures between 65°F and 80°F (18°C to 27°C).",
+      "humidity": "Prefers high humidity. Regular misting is recommended.",
+      "soil": "Peat-based, well-draining potting mix.",
+      "fertilization": "Fertilize with a balanced liquid fertilizer once a month during the growing season."
+    },
+    "Aloe Vera": {
+      "water": "Water deeply but infrequently. Allow the soil to dry completely before watering again.",
+      "sunlight": "Full sunlight. Needs at least 6 hours of direct sunlight daily.",
+      "temperature": "Ideal temperatures between 59°F and 77°F (15°C to 25°C). Can tolerate slightly warmer temperatures but not frost.",
+      "humidity": "Low humidity. Aloe Vera is a succulent that prefers dry conditions.",
+      "soil": "Well-draining, sandy soil. A cactus mix or a similar mix with good drainage is ideal.",
+      "fertilization": "Fertilize once a year with a low-nitrogen fertilizer during the growing season."
+    },
+    "Cactus": {
+      "water": "Water only when the soil is completely dry. Water deeply, but infrequently.",
+      "sunlight": "Full sunlight, at least 6 hours per day.",
+      "temperature": "Temperatures between 70°F and 100°F (21°C to 38°C) are ideal. Avoid cold temperatures below 50°F (10°C).",
+      "humidity": "Low humidity. Cacti prefer dry air.",
+      "soil": "Well-draining soil, such as a cactus or succulent mix.",
+      "fertilization": "Fertilize lightly once during the growing season (spring to early fall) with a low-nitrogen fertilizer."
+    },
+    "Peace Lily (Spathiphyllum)": {
+      "water": "Keep the soil moist, but allow the top layer to dry out between waterings.",
+      "sunlight": "Low to medium indirect light. It can tolerate some shade.",
+      "temperature": "Prefers temperatures between 65°F and 80°F (18°C to 27°C). Avoid sudden temperature drops.",
+      "humidity": "Prefers high humidity. Mist regularly or place a humidity tray nearby.",
+      "soil": "Rich, well-draining potting soil. A mix designed for tropical houseplants is ideal.",
+      "fertilization": "Fertilize monthly during the growing season with a balanced fertilizer."
+    },
+    "Monstera deliciosa": {
+      "water": "Water when the top 2 inches of soil feel dry. In winter, reduce watering.",
+      "sunlight": "Bright, indirect light. Can tolerate some direct sunlight but avoid long exposure.",
+      "temperature": "Prefers temperatures between 65°F and 85°F (18°C to 29°C). Avoid temperatures below 50°F (10°C).",
+      "humidity": "High humidity is ideal. Regular misting helps.",
+      "soil": "Well-draining, rich potting soil. A peat-based mix is preferred.",
+      "fertilization": "Fertilize once a month during the growing season with a balanced liquid fertilizer."
+    },
+    "Snake Plant (Sansevieria)": {
+      "water": "Allow the soil to dry completely between waterings. Water less frequently in winter.",
+      "sunlight": "Tolerates low light but prefers indirect light. Can survive in low light conditions.",
+      "temperature": "Prefers temperatures between 60°F and 85°F (16°C to 29°C). Tolerant of a wide range of temperatures.",
+      "humidity": "Low humidity. Tolerates dry air well.",
+      "soil": "Well-draining potting mix, preferably cactus or succulent mix.",
+      "fertilization": "Fertilize every 2-3 months during the growing season with a low-nitrogen fertilizer."
+    },
+    "Succulents": {
+      "water": "Water deeply but infrequently. Allow soil to dry completely between waterings.",
+      "sunlight": "Full sunlight, 6 hours or more per day. Some can tolerate partial sunlight.",
+      "temperature": "Ideal temperatures between 60°F and 85°F (15°C to 29°C). Avoid temperatures below 50°F (10°C).",
+      "humidity": "Low humidity. They are adapted to dry climates.",
+      "soil": "Well-draining, sandy soil. A cactus or succulent mix is ideal.",
+      "fertilization": "Fertilize once during the growing season with a diluted, balanced fertilizer."
+    },
+    "Iris": {
+      "Iris sibirica": {
+        "water": "Requires regular watering, especially during the growing season. Keep soil moist but well-draining. It can tolerate wetter conditions compared to other irises, but avoid waterlogging.",
+        "sunlight": "Full sunlight to partial shade. Iris sibirica prefers full sun but can tolerate light shade, especially in warmer climates.",
+        "temperature": "Thrives in temperatures between 55°F and 75°F (13°C to 24°C). It can tolerate frost, making it suitable for cooler climates.",
+        "humidity": "Moderate humidity is ideal. It tolerates slightly moist air but prefers good air circulation.",
+        "soil": "Well-draining, moist, rich, and slightly acidic soil. It does well in soils with organic matter.",
+        "fertilization": "Fertilize in early spring as new growth appears, using a balanced fertilizer. Avoid over-fertilizing, as this can lead to excessive foliage growth and fewer blooms."
+      },
+      "Iris setosa": {
+        "water": "Requires consistently moist soil. Iris setosa can tolerate wetter soil than many other irises but should not be in standing water. Ensure the soil remains moist during the growing season.",
+        "sunlight": "Full sunlight to partial shade. It thrives in bright, sunny spots but can tolerate partial shade, particularly in hotter climates.",
+        "temperature": "Prefers cooler climates, with ideal temperatures between 50°F and 70°F (10°C to 21°C). Can tolerate frost and mild winters.",
+        "humidity": "Moderate to high humidity is beneficial. Iris setosa can tolerate moist air but requires good air circulation to avoid fungal diseases.",
+        "soil": "Moist, well-draining, and rich in organic material. Prefers slightly acidic to neutral pH levels.",
+        "fertilization": "Fertilize in early spring with a balanced fertilizer. Avoid high-nitrogen fertilizers to prevent too much leaf growth."
+      },
+      "Iris versicolor": {
+        "water": "Prefers moist soil, particularly near water or in wetlands. Ensure soil is consistently moist but well-draining. It can tolerate wet feet, making it ideal for water gardens.",
+        "sunlight": "Full sunlight to partial shade. Iris versicolor does best in full sun but can tolerate partial shade, especially in hotter climates.",
+        "temperature": "Ideal temperatures between 60°F and 75°F (16°C to 24°C). Can tolerate frost but does best in moderate temperatures.",
+        "humidity": "Moderate to high humidity. Prefers humid conditions and can thrive in moisture-rich environments like ponds or streams.",
+        "soil": "Moist, well-draining, and rich in organic matter. Prefers slightly acidic to neutral soil with good drainage.",
+        "fertilization": "Fertilize lightly with a balanced fertilizer in early spring as new growth emerges. Avoid over-fertilizing, as it may promote more foliage than flowers."
+      }
+    }
+  }
+  
